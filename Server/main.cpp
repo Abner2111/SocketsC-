@@ -1,5 +1,7 @@
 #include "SocketServer.h"
 #include "json.hpp"
+
+using json = nlohmann::json;
 SocketServer* server;
 void * serverRun(void *){
     try{
@@ -17,7 +19,8 @@ int main() {
     pthread_detach(serverTherad);
 
     //Cycle to send messages to the client
-    string json = "Hola desde el servidor";
+    json message;
+    
     while(true){
         string msn;
         cin >> msn;

@@ -1,5 +1,7 @@
 #include "SocketClient.h"
 #include "json.hpp"
+using json = nlohmann::json;
+
 SocketClient* client;
 
 void * clientRun(void *){
@@ -10,6 +12,7 @@ void * clientRun(void *){
     }
     pthread_exit(NULL);
 }
+
 int main() {
     client  = new SocketClient;
     pthread_t thd;
