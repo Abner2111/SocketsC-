@@ -53,10 +53,10 @@ RM = /snap/clion/163/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abner/CLionProjects/Client
+CMAKE_SOURCE_DIR = /home/abner/Server-Client/SocketsC++/Client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abner/CLionProjects/Client/cmake-build-debug
+CMAKE_BINARY_DIR = /home/abner/Server-Client/SocketsC++/Client/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled3.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/untitled3.dir/flags.make
 
 CMakeFiles/untitled3.dir/main.cpp.o: CMakeFiles/untitled3.dir/flags.make
 CMakeFiles/untitled3.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abner/CLionProjects/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled3.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled3.dir/main.cpp.o -c /home/abner/CLionProjects/Client/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abner/Server-Client/SocketsC++/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled3.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled3.dir/main.cpp.o -c /home/abner/Server-Client/SocketsC++/Client/main.cpp
 
 CMakeFiles/untitled3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled3.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abner/CLionProjects/Client/main.cpp > CMakeFiles/untitled3.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abner/Server-Client/SocketsC++/Client/main.cpp > CMakeFiles/untitled3.dir/main.cpp.i
 
 CMakeFiles/untitled3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled3.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abner/CLionProjects/Client/main.cpp -o CMakeFiles/untitled3.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abner/Server-Client/SocketsC++/Client/main.cpp -o CMakeFiles/untitled3.dir/main.cpp.s
 
 CMakeFiles/untitled3.dir/SocketClient.cpp.o: CMakeFiles/untitled3.dir/flags.make
 CMakeFiles/untitled3.dir/SocketClient.cpp.o: ../SocketClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abner/CLionProjects/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled3.dir/SocketClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled3.dir/SocketClient.cpp.o -c /home/abner/CLionProjects/Client/SocketClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abner/Server-Client/SocketsC++/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled3.dir/SocketClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled3.dir/SocketClient.cpp.o -c /home/abner/Server-Client/SocketsC++/Client/SocketClient.cpp
 
 CMakeFiles/untitled3.dir/SocketClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled3.dir/SocketClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abner/CLionProjects/Client/SocketClient.cpp > CMakeFiles/untitled3.dir/SocketClient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abner/Server-Client/SocketsC++/Client/SocketClient.cpp > CMakeFiles/untitled3.dir/SocketClient.cpp.i
 
 CMakeFiles/untitled3.dir/SocketClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled3.dir/SocketClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abner/CLionProjects/Client/SocketClient.cpp -o CMakeFiles/untitled3.dir/SocketClient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abner/Server-Client/SocketsC++/Client/SocketClient.cpp -o CMakeFiles/untitled3.dir/SocketClient.cpp.s
 
 # Object files for target untitled3
 untitled3_OBJECTS = \
@@ -104,7 +104,7 @@ untitled3: CMakeFiles/untitled3.dir/main.cpp.o
 untitled3: CMakeFiles/untitled3.dir/SocketClient.cpp.o
 untitled3: CMakeFiles/untitled3.dir/build.make
 untitled3: CMakeFiles/untitled3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abner/CLionProjects/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abner/Server-Client/SocketsC++/Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +116,6 @@ CMakeFiles/untitled3.dir/clean:
 .PHONY : CMakeFiles/untitled3.dir/clean
 
 CMakeFiles/untitled3.dir/depend:
-	cd /home/abner/CLionProjects/Client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abner/CLionProjects/Client /home/abner/CLionProjects/Client /home/abner/CLionProjects/Client/cmake-build-debug /home/abner/CLionProjects/Client/cmake-build-debug /home/abner/CLionProjects/Client/cmake-build-debug/CMakeFiles/untitled3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/abner/Server-Client/SocketsC++/Client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abner/Server-Client/SocketsC++/Client /home/abner/Server-Client/SocketsC++/Client /home/abner/Server-Client/SocketsC++/Client/cmake-build-debug /home/abner/Server-Client/SocketsC++/Client/cmake-build-debug /home/abner/Server-Client/SocketsC++/Client/cmake-build-debug/CMakeFiles/untitled3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled3.dir/depend
 

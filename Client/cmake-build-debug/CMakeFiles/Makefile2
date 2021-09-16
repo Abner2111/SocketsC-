@@ -54,10 +54,10 @@ RM = /snap/clion/163/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abner/CLionProjects/Client
+CMAKE_SOURCE_DIR = /home/abner/Server-Client/SocketsC++/Client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abner/CLionProjects/Client/cmake-build-debug
+CMAKE_BINARY_DIR = /home/abner/Server-Client/SocketsC++/Client/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/untitled3.dir/clean
 CMakeFiles/untitled3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abner/CLionProjects/Client/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target untitled3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abner/Server-Client/SocketsC++/Client/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target untitled3"
 .PHONY : CMakeFiles/untitled3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abner/CLionProjects/Client/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abner/Server-Client/SocketsC++/Client/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/untitled3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abner/CLionProjects/Client/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abner/Server-Client/SocketsC++/Client/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/untitled3.dir/rule
 
 # Convenience name for target.

@@ -1,7 +1,7 @@
 //
 // Created by abner on 30/8/21.
 //
-
+#include <nlohmann/json.hpp>
 #include "SocketServer.h"
 
 SocketServer::SocketServer() {}

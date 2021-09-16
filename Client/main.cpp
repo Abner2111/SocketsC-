@@ -1,5 +1,5 @@
 #include "SocketClient.h"
-
+#include "json.hpp"
 SocketClient* client;
 
 void * clientRun(void *){
