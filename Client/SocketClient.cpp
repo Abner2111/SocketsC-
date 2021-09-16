@@ -1,5 +1,6 @@
 #include "SocketClient.h"
-
+#include "json.hpp"
+using json = nlohmann::json;
 SocketClient::SocketClient() {}
 
 void SocketClient::set_connection() {
@@ -41,7 +42,11 @@ void * SocketClient::Controller(void *obj) {
                 break;
             }
         }
-        cout << message << endl;
+        auto json = json::parse(message);
+
+        cout << "Name is:"<<json["name"] << endl;
+        cout << "Gender is "<<json["gender"]<<endl;
+        cout << "Age is " <<json["age"]<<endl;
     }
     close(c->descriptor);
     pthread_exit(NULL);

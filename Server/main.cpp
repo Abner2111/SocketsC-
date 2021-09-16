@@ -19,14 +19,27 @@ int main() {
     pthread_detach(serverTherad);
 
     //Cycle to send messages to the client
-    json message;
-    
+    json json_message;
+
+    string name;
+    string age;
+    string gender;
     while(true){
-        string msn;
-        cin >> msn;
-        if(msn == "salir")
+        cout << "Name:"<<endl;
+        cin >> name;
+        json_message["name"] = name;
+        cout << "Age:"<<endl;
+        cin >> age;
+        json_message["age"] =age;
+        cout << "Gender"<<endl;
+        cin >> gender;
+        json_message["gender"] = gender;
+
+        std::string msg = json_message.dump();
+        if (name=="exit" || age =="exit"||gender=="exit")
             break;
-        server->setMessage(msn.c_str());
+        server->setMessage(msg.c_str());
     }
+
     return 0;
 }
